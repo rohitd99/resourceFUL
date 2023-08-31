@@ -1,0 +1,16 @@
+{
+  "name": "ResourceFUL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1",
+    "tailwindcss": "^3.3.3"
+  }
+}

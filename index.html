@@ -39,7 +39,7 @@
           <div class="flex md:order-2">
             <button
               type="button"
-              class="font-Nunito text-white bg-buttonBg hover:bg-secondaryBg focus:ring-4 focus:outline-none focus:ring-secondaryBg font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
+              class="font-Nunito text-white bg-buttonBg hover:bg-hoverBg focus:ring-4 focus:outline-none focus:ring-hoverBg font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
             >
               Get Started
             </button>
@@ -113,7 +113,7 @@
       <section
         class="bg-black flex flex-col p-6 lg:flex-row md:p-16 items-center justify-center gap-16 lg:gap-32"
       >
-        <div class="flex flex-col gap-8 sm:max-w-[36rem]">
+        <div class="flex flex-col gap-8 sm:max-w-[36rem] animate-fade-down">
           <h1 class="font-VT323 text-primaryFont text-5xl sm:text-7xl">
             RESOURCEFUL
           </h1>
@@ -122,12 +122,14 @@
             resources. Dive into a world of knowledge cultivated by our
             passionate community
           </p>
-          <button class="text-white bg-buttonBg sm:max-w-xl rounded-lg py-2">
+          <button
+            class="text-white bg-buttonBg sm:max-w-xl rounded-lg py-2 hover:bg-hoverBg focus:ring-4 focus:outline-none focus:ring-hoverBg"
+          >
             JOIN NOW
           </button>
         </div>
         <div
-          class="flex items-center lg:w-[32rem] lg:h-[40rem] lg:overflow-hidden lg:rounded-lg"
+          class="flex items-center lg:w-[32rem] lg:h-[40rem] lg:overflow-hidden lg:rounded-lg animate-fade-down"
         >
           <picture>
             <source
@@ -147,11 +149,15 @@
         </div>
       </section>
       <section class="bg-secondaryBg p-10 lg:p-24 flex flex-col gap-8">
-        <h2 class="font-VT323 text-4xl xl:text-center">KEY FEATURES</h2>
+        <h2 class="font-VT323 text-4xl xl:text-center animate-fade">
+          KEY FEATURES
+        </h2>
         <div
           class="flex flex-col gap-16 md:flex-row md:gap-8 xl:justify-center xl:pl-24"
         >
-          <ul class="flex flex-col justify-between gap-16 font-Nunito">
+          <ul
+            class="flex flex-col justify-between gap-16 font-Nunito animate-fade"
+          >
             <li>
               <h3 class="text-xl">Share Resources</h3>
               <p>
@@ -170,7 +176,9 @@
               <p>Engage in lively conversations with like minded enthusiasts</p>
             </li>
           </ul>
-          <ul class="flex flex-col justify-between gap-16 font-Nunito">
+          <ul
+            class="flex flex-col justify-between gap-16 font-Nunito animate-fade"
+          >
             <li>
               <h3 class="text-xl">Curate Content</h3>
               <p>Follow topics of interest and create personal collections</p>
@@ -198,14 +206,14 @@
             class="flex gap-4 h-[12rem] sm:h-[16rem] md:h-[18rem] lg:h-[22rem]"
           >
             <div
-              class="w-full md:w-4/6 flex flex-col justify-center items-center rounded-xl bg-cardBg p-4"
+              class="w-full md:w-4/6 flex flex-col justify-center items-center rounded-xl bg-cardBg p-4 animate-fade-left"
             >
               <h3 class="font-Nunito text-6xl font-bold text-center">500+</h3>
               <p class="text-2xl text-center">Resources for every learner</p>
             </div>
             <div class="hidden md:block w-2/6 bg-cardBg p-6 rounded-xl">
               <img
-                class="rounded-tr-[80px] rounded-tl-[80px] rounded-br-[10px] rounded-bl-[80px] w-full h-full object-cover"
+                class="rounded-tr-[80px] rounded-tl-[80px] rounded-br-[10px] rounded-bl-[80px] w-full h-full object-cover animate-fade-right"
                 src="./images/camera.jpg"
                 alt="Image of camera"
               />
@@ -216,13 +224,13 @@
           >
             <div class="hidden md:block w-2/6 bg-cardBg p-6 rounded-xl">
               <img
-                class="rounded-tr-[80px] rounded-tl-[10px] rounded-br-[80px] rounded-bl-[80px] w-full h-full object-cover"
+                class="rounded-tr-[80px] rounded-tl-[10px] rounded-br-[80px] rounded-bl-[80px] w-full h-full object-cover animate-fade-right"
                 src="./images/hand.jpg"
                 alt="Image of hand"
               />
             </div>
             <div
-              class="w-full md:w-4/6 flex flex-col justify-center items-center rounded-xl bg-cardBg p-4"
+              class="w-full md:w-4/6 flex flex-col justify-center items-center rounded-xl bg-cardBg p-4 animate-fade-left"
             >
               <h3 class="font-Nunito text-6xl font-bold text-center">1000+</h3>
               <p class="text-2xl text-center">Passionate Community Members</p>
@@ -231,14 +239,16 @@
         </div>
       </section>
       <section class="flex flex-col text-center bg-secondaryBg p-10 gap-8">
-        <h2 class="font-VT323 text-7xl font-medium">Ready, Set, Go!</h2>
-        <p class="font-Nunito text-xl self-center md:w-4/6">
+        <h2 class="font-VT323 text-7xl font-medium animate-fade-down">
+          Ready, Set, Go!
+        </h2>
+        <p class="font-Nunito text-xl self-center md:w-4/6 animate-fade-down">
           What are you waiting for? Embrace the nerd within and immerse yourself
           in the exhilarating world of computer science. Join ResourceFul now
           and never miss another byte of knowledge!
         </p>
         <button
-          class="text-white bg-buttonBg rounded-lg py-2 max-w-[32rem] w-full self-center"
+          class="text-white bg-buttonBg rounded-lg py-2 max-w-[32rem] w-full self-center hover:bg-hoverBg focus:ring-4 focus:outline-none focus:ring-hoverBg animate-fade-down"
         >
           Join the Community
         </button>
@@ -246,7 +256,7 @@
           class="flex flex-col flex-wrap md:flex-row self-center justify-center gap-8 font-Nunito text-white mt-24"
         >
           <div
-            class="bg-cardBg rounded-xl flex flex-col gap-8 p-8 text-start max-w-[20rem]"
+            class="bg-cardBg rounded-xl flex flex-col gap-8 p-8 text-start max-w-[20rem] animate-fade-down"
           >
             <img
               class="rounded-full w-16 h-16"
@@ -260,7 +270,7 @@
             <p class="mt-8">Cassandra Elliot</p>
           </div>
           <div
-            class="bg-cardBg rounded-xl flex flex-col gap-8 p-8 text-start max-w-[20rem]"
+            class="bg-cardBg rounded-xl flex flex-col gap-8 p-8 text-start max-w-[20rem] animate-fade-down"
           >
             <img
               class="rounded-full w-16 h-16"
@@ -274,7 +284,7 @@
             <p class="mt-8">Cassandra Elliot</p>
           </div>
           <div
-            class="bg-cardBg rounded-xl flex flex-col gap-8 p-8 text-start max-w-[20rem]"
+            class="bg-cardBg rounded-xl flex flex-col gap-8 p-8 text-start max-w-[20rem] animate-fade-down"
           >
             <img
               class="rounded-full w-16 h-16"
@@ -290,8 +300,10 @@
         </div>
       </section>
       <section class="bg-secondaryBg flex flex-col gap-8 p-10 md:p-16 lg:p-24">
-        <h2 class="font-VT323 text-7xl text-center">Pricing</h2>
-        <p class="font-Nunito text-xl text-justify">
+        <h2 class="font-VT323 text-7xl text-center animate-fade-down">
+          Pricing
+        </h2>
+        <p class="font-Nunito text-xl text-justify animate-fade-down">
           We believe in providing access to valuable learning resources to as
           many individuals as possible. While a vast majority of our content is
           freely accessible, we also offer premium features and benefits through
@@ -301,7 +313,7 @@
         </p>
         <div class="flex flex-col md:flex-row gap-8 justify-center flex-wrap">
           <div
-            class="bg-cardBg rounded-xl font-Nunito p-10 flex flex-col gap-8 text-sm"
+            class="bg-cardBg rounded-xl font-Nunito p-10 flex flex-col gap-8 text-sm animate-fade"
           >
             <p>Basic</p>
             <p class="font-VT323 text-4xl">$0.00 / Month</p>
@@ -310,12 +322,14 @@
               <li class="feature">Unlimited Access</li>
               <li class="feature">Basic Support</li>
             </ul>
-            <button class="text-white bg-buttonBg rounded-lg py-2">
+            <button
+              class="text-white bg-buttonBg rounded-lg py-2 hover:bg-hoverBg focus:ring-4 focus:outline-none focus:ring-hoverBg"
+            >
               Start for Free
             </button>
           </div>
           <div
-            class="bg-cardBg rounded-xl font-Nunito p-10 flex flex-col gap-8 text-sm"
+            class="bg-cardBg rounded-xl font-Nunito p-10 flex flex-col gap-8 text-sm animate-fade"
           >
             <p>Pro</p>
             <p class="font-VT323 text-4xl">$4.99 / Month</p>
@@ -325,12 +339,14 @@
               <li class="feature">Extended Support</li>
               <li class="feature">Personal Collections</li>
             </ul>
-            <button class="text-white bg-buttonBg rounded-lg py-2">
+            <button
+              class="text-white bg-buttonBg rounded-lg py-2 hover:bg-hoverBg focus:ring-4 focus:outline-none focus:ring-hoverBg"
+            >
               Subscribe
             </button>
           </div>
           <div
-            class="bg-cardBg rounded-xl font-Nunito p-10 flex flex-col gap-8 text-sm"
+            class="bg-cardBg rounded-xl font-Nunito p-10 flex flex-col gap-8 text-sm animate-fade"
           >
             <p>Enterprise</p>
             <p class="font-VT323 text-4xl">$9.99 / Month</p>
@@ -341,7 +357,9 @@
               <li class="feature">Personal Collections</li>
               <li class="feature">Tailored Resources</li>
             </ul>
-            <button class="text-white bg-buttonBg rounded-lg py-2">
+            <button
+              class="text-white bg-buttonBg rounded-lg py-2 hover:bg-hoverBg focus:ring-4 focus:outline-none focus:ring-hoverBg"
+            >
               Subscribe
             </button>
           </div>

@@ -7,7 +7,8 @@ module.exports = {
         buttonBg: "#7251B5",
         primaryFont: "#B185DB",
         secondaryBg: "#D2B7E5",
-        cardBg: "#C6A4DE"
+        cardBg: "#C6A4DE",
+        hoverBg: "#451A8A"
       },
       fontFamily: {
         VT323 : ['VT323', 'monospace'],
@@ -15,6 +16,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
 
